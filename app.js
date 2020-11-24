@@ -14,6 +14,11 @@ app.get("/earth", function(req, res)
     res.render("earth.html");
 });
 
+app.get("/mars", function(req, res)
+{
+    res.render("mars.html");
+});
+
 app.get("/mercury", function(req, res)
 {
     res.render("mercury.html");

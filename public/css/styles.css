@@ -41,6 +41,11 @@ p
   background-image: url("/img/earth.jpg");
 }
 
+.image-container.mars
+{
+  background-image: url("/img/mars.jpg");
+}
+
 .text
 {
     background-color: white;
