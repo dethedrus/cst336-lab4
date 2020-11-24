@@ -1,9 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome to Mercury</title>
-    </head>
-    <body>
-        <h1>Welcome to Mercury!</h1>
-    </body>
-</html>
+<%- include('partials/header.ejs') %>
+
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link" id="navHome" data-toggle="tab" href = "/">Home</a>
+          <a class="nav-item nav-link" id="navEarth" data-toggle="tab"  href = "/earth">Earth</a>
+          <a class="nav-item nav-link active" id="navMercury" data-toggle="tab"  href = "/mercury">Mercury</a>
+          <a class="nav-item nav-link" id="navVenus" data-toggle="tab"  href = "/venus">Venus</a>
+        </div>
+        
+        <div class = "image-container mercury">
+            <div class = "text">
+                Mercury
+            </div>
+        </div>
+        <br>
+        <p>The smallest planet (sorry, Pluto), Mercury is closest to the Sun with a solar year of approximately 88 Earth days.</p>
+        <br>
+        <p>It is similar to Earth insofar as having a solid exterior and molten core, but is devoid of atmosphere due to proximity to the sun. It has been geologically inactive for billions of years, as evidenced by the heavy cratering from meteorological bombardment.</p>
+        <br>
+        <p>Despite how close it lies to the sun, its surface temperatures vary wildly from highs near 800&#xb0;F to lows close to -300&#xb0;F!</p>
+        <br>
+
+<%- include('partials/footer.ejs') %>

@@ -9,6 +9,11 @@ app.get("/", function(req, res)
    res.render("index.html");
 });
 
+app.get("/earth", function(req, res)
+{
+    res.render("earth.html");
+});
+
 app.get("/mercury", function(req, res)
 {
     res.render("mercury.html");

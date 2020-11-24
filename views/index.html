@@ -1,10 +1,17 @@
 <%- include('partials/header.ejs') %>
 
-        <h1>Welcome to the Solar System Site!</h1>
-        <p>Click on a planet to know more about it:</p>
-        <a href = "/mercury"> Mercury </a><br>
-        <a href = "/venus">Venus</a><br>
-        Earth<br>
-        <img src = "/img/solar-system.jpg" alt = "The Solar System"/>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="navHome" data-toggle="tab" href = "/">Home</a>
+          <a class="nav-item nav-link" id="navEarth" data-toggle="tab"  href = "/earth">Earth</a>
+          <a class="nav-item nav-link" id="navMercury" data-toggle="tab"  href = "/mercury">Mercury</a>
+          <a class="nav-item nav-link" id="navVenus" data-toggle="tab"  href = "/venus">Venus</a>
+        </div>
+        
+        <div class = "image-container">
+            <div class = "text">
+                The Solar System
+            </div>
+        </div>
+        <br>
 
 <%- include('partials/footer.ejs') %>

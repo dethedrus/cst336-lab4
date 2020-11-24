@@ -1,9 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome to Venus</title>
-    </head>
-    <body>
-        <h1>Welcome to Venus!</h1>
-    </body>
-</html>
+<%- include('partials/header.ejs') %>
+
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link" id="navHome" data-toggle="tab" href = "/">Home</a>
+          <a class="nav-item nav-link" id="navEarth" data-toggle="tab"  href = "/earth">Earth</a>
+          <a class="nav-item nav-link" id="navMercury" data-toggle="tab"  href = "/mercury">Mercury</a>
+          <a class="nav-item nav-link active" id="navVenus" data-toggle="tab"  href = "/venus">Venus</a>
+        </div>
+        
+        <div class = "image-container venus">
+            <div class = "text">
+                Venus
+            </div>
+        </div>
+        <br>
+        <p>Venus is colloqially known as Earth's "sister planet" due to its similar size, mass and proximity to the sun.</p>
+        <br>
+        <p>The similarities end there, as it is radically different than Earth in many respects, such as the incredibly high carbon dioxide content in the atmophere (96%) and surface pressure almost 100 times that of sea level.</p>
+        <br>
+        <p>If this wasn't enough to dissuade manned exploration, Venus is covered in a thick cloud layer of sulfuric acid as well as boasting surface temperatures upwards of 900&#xb0;F!</p>
+        <br>
+
+<%- include('partials/footer.ejs') %>
